@@ -1,0 +1,10 @@
+# .gitpod.yml
+image: gitpod/workspace-full
+
+tasks:
+  - init: echo "Nothing to init yet!"
+    command: bash
+
+ports:
+  - port: 3000
+    onOpen: open-preview
